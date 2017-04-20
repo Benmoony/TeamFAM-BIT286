@@ -9808,15 +9808,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Haytham\\.nuget\\packages\\": {}
+    "C:\\Users\\zinmaung\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\haytham\\documents\\visual studio 2017\\Projects\\IceCreamMathGame\\IceCreamMathGame\\IceCreamMathGame.csproj",
+      "projectUniqueName": "C:\\Users\\zinmaung\\Source\\Repos\\TeamFAM-BIT286\\IceCreamMathGame\\IceCreamMathGame\\IceCreamMathGame.csproj",
       "projectName": "IceCreamMathGame",
-      "projectPath": "c:\\users\\haytham\\documents\\visual studio 2017\\Projects\\IceCreamMathGame\\IceCreamMathGame\\IceCreamMathGame.csproj",
-      "outputPath": "c:\\users\\haytham\\documents\\visual studio 2017\\Projects\\IceCreamMathGame\\IceCreamMathGame\\obj\\",
+      "projectPath": "C:\\Users\\zinmaung\\Source\\Repos\\TeamFAM-BIT286\\IceCreamMathGame\\IceCreamMathGame\\IceCreamMathGame.csproj",
+      "outputPath": "C:\\Users\\zinmaung\\Source\\Repos\\TeamFAM-BIT286\\IceCreamMathGame\\IceCreamMathGame\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
