@@ -10,6 +10,7 @@ namespace IceCreamGameTake4.Controllers
     {
         public IActionResult Index()
         {
+            //AccountController ac = new AccountController();
             return View();
         }
 
