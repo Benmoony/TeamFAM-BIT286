@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MathGameIceCream3._0.Controllers
+namespace MathGameIceCream5.Controllers
 {
     public class HomeController : Controller
     {

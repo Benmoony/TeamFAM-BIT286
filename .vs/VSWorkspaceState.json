@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MathGameIceCream3.0",
+    "\\MathGameIceCream3.0\\MathGameIceCream3.0",
+    "\\MathGameIceCream3.0\\MathGameIceCream3.0\\bin",
+    "\\MathGameIceCream3.0\\MathGameIceCream3.0\\Views",
+    "\\MathGameIceCream3.0\\MathGameIceCream3.0\\Views\\Home",
+    "\\MathGameIceCream3.0\\MathGameIceCream3.0\\Views\\Shared"
   ],
-  "SelectedNode": "\\New",
+  "SelectedNode": "\\MathGameIceCream3.0\\MathGameIceCream3.0.sln",
   "PreviewInSolutionExplorer": false
 }

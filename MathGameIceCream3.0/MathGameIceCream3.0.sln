@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathGameIceCream3.0", "MathGameIceCream3.0\MathGameIceCream3.0.csproj", "{AF13F93C-C294-4829-90F3-9629EBC70E55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathGameIceCream5", "MathGameIceCream3.0\MathGameIceCream5.csproj", "{AF13F93C-C294-4829-90F3-9629EBC70E55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

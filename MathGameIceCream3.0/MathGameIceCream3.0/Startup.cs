@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using MathGameIceCream5.Data;
+using Microsoft.EntityFrameworkCore;
 
-namespace MathGameIceCream3._0
+namespace MathGameIceCream5
 {
     public class Startup
     {
@@ -27,12 +29,16 @@ namespace MathGameIceCream3._0
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<IceCreamContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
             // Add framework services.
             services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IceCreamContext context)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
@@ -55,6 +61,8 @@ namespace MathGameIceCream3._0
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            Dbinitializer.Initialize(context);
         }
     }
 }

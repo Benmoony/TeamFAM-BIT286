@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace MathGameIceCream3._0
+namespace MathGameIceCream5
 {
     public class Program
     {
